@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane maxHeight="800.0" maxWidth="250.0" minHeight="800.0" minWidth="250.0" prefHeight="800.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.controllers.ConsoleLogController">
+   <children>
+      <TextArea fx:id="consoleLogTextArea" editable="false" maxHeight="800.0" maxWidth="250.0" minHeight="800.0" minWidth="250.0" prefHeight="800.0" prefWidth="250.0" StackPane.alignment="BOTTOM_CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+      </TextArea>
+   </children>
+</StackPane>
